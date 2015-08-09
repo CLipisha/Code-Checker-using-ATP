@@ -1,0 +1,54 @@
+\documentclass[]{article}
+
+\begin{document}
+	\title{\huge\textbf{Code-Checker using ATP}}
+	\author{Niharika J, Lipisha C, Priti G  \\Guide: Kavita Wale \\ \\ \LARGE Fr. C. Rodrigues Institute of Technology, Vashi}
+	\maketitle
+	\pagebreak
+
+\section{Proposed System}\label{proposed-system}
+
+Code-Checker using Automated Theorem Proving is used for verifying the
+logical correctness of a C program. It involves formulating an error
+problem to be verified using a suitable logic. Theorem provers provide a
+rigorous and reliable approach to proving of correctness, enabling and
+establishing correctness of properties over infinite domains, properties
+about complex data structures, and properties of recursive
+structures etc. \\ \\
+In this system , the user will give his syntactically-correct program as
+an input to the Code Checker system. The system will check the
+correctness of the program by comparing its rules which are inbuilt in
+the system. It will then take appropriate action by displaying the
+correct output in the form of message.
+
+\subsection{Modules}\label{modules}
+
+\begin{itemize}
+ \item \textbf{User Interface} \\
+
+The user will submit the program to be verified. He/she can verify the
+correctness of their code and its logic by giving a source code as an
+input to the system. Code-Checker using ATP accepts C programs to be
+verified. \\
+
+\item \textbf{Verification Module} \\
+
+The system will take the C program from the user as input and it will
+check for logical errors present in the program. There errors include
+unreachable code blocks, infinite loops, infinite recursions, return
+value mismatch etc. \\
+
+\item \textbf{Notification Module} \\
+
+In this module, after verifying the program, the system will inform the
+user whether the C source code is logically correct or not. The
+interaction with the user is provided in the form of messages. If the
+program is verified correctly then a ``Successfully verified'' message
+will be displayed. Else, the system will give warnings, which are
+presented to the user in the form of error messages, according to which
+the user may modify their program. For beginners in coding, this will
+help them learn in an iterative fashion.
+
+\end{itemize}
+
+\end{document}
